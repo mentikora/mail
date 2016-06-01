@@ -9,7 +9,6 @@
     @import url(https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,cyrillic);
 
     img {
-      max-width: 600px;
       outline: none;
       text-decoration: none;
       -ms-interpolation-mode: bicubic;
@@ -26,6 +25,9 @@
       /*hotmail*/
       margin-bottom:0;
       margin: 0;
+    }
+    hr{
+      margin: 40px 0;
     }
     /* General styling */
     td, h1, h2, h3  {
@@ -48,7 +50,10 @@
       border-collapse: collapse !important;
     }
     .img-responsible{
+      display: block;
+      width: 100%;
       max-width: 100%;
+      height: auto;
     }
     .headline {
       color: #ffffff;
@@ -56,6 +61,9 @@
     }
    .force-full-width {
       width: 100% !important;
+    }
+    .responsive_block_top{
+      float: left;
     }
   </style>
 
@@ -84,6 +92,20 @@
     table[class="mobile_full_width"]{
       width: 100% !important;
     }
+    .responsive_block_top{
+      width: 100% !important;
+      float: none !important;
+      text-align: center !important;
+    }
+    .responsive_footer_link{
+      width: 100% !important; 
+      display: block !important;
+      text-align: center !important;
+      margin-bottom: 5px !important;
+    }
+    .text_center{
+      text-align: center !important;
+    }
   </style>
 </head>
 
@@ -99,8 +121,8 @@
 
                 <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%" style="margin:0 auto;">
                   <tr>
-                    <td colspan="3" style="font-size: 30px; text-align:center;">
-                      <img src="top.jpg" alt="" class="img-responsible" alt="fama" />
+                    <td colspan="3">
+                      <img src="top.jpg" alt="" class="img-responsible" alt="fama" style="font-size: 25px; color: #2a1712;" />
                     </td>
                   </tr>
                   <tr>
@@ -139,12 +161,12 @@
                         <tr>
                           <td width="10%" class="hidden">&nbsp;</td>
                           <td>
-                            <img src="pasotti.jpg" alt="pasotti" style="font-size: 25px; color: #2a1712;" />
-                            <td style="text-align: right;">
-                              <p style="font-size: 25px; color: #5d5e5e; line-height: 30px;">
-                                Поп дива Хилари Дафф, Дженнифер Лопес, актриса Мерил Стрип не выходят в дождливую погоду без Pasotti... Специальная цена на женские и мужские модели к осеннему сезону от FAMA.   
-                              </p>
-                            </td>
+                            <div class="responsive_block_top" style="width: 30%; text-align: left;">
+                              <img src="pasotti.jpg" alt="pasotti" style="font-size: 25px; color: #2a1712;" />
+                            </div>
+                            <div class="responsive_block_top" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right; width: 70%;">
+                              Поп дива Хилари Дафф, Дженнифер Лопес, актриса Мерил Стрип не выходят в дождливую погоду без Pasotti... Специальная цена на женские и мужские модели к осеннему сезону от FAMA.  
+                            </div>
                           </td>
                           <td width="10%" class="hidden">&nbsp;</td>
                         </tr>
@@ -201,7 +223,17 @@
                 <!-- 2  -->
                 <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%" style="margin:0 auto;">
                   <tr>
-                    <td height="100px"></td>
+                    <td>
+                      <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td width="12%" class="hidden">&nbsp;</td>
+                          <td>
+                            <hr />
+                          </td>
+                          <td width="12%" class="hidden">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -209,12 +241,12 @@
                         <tr>
                           <td width="10%" class="hidden">&nbsp;</td>
                           <td>
-                            <img src="ladia.jpg" alt="ladia" style="font-size: 25px; color: #2a1712;" />
-                            <td style="text-align: right;">
-                              <p style="font-size: 25px; color: #5d5e5e; line-height: 30px;">
-                                Лучшие подарки для коллекционеров: наборы для отдыха на природе в простом и подарочном исполнении, подарочные шкатулки для ножей и уникальные остекленные рамки с различными тропическими насекомыми, выполненные в соответствии с коллекционными требованиями.  
-                              </p>
-                            </td>
+                            <div class="responsive_block_top" style="width: 10%; text-align: left;">
+                              <img src="ladia.jpg" alt="ladia" style="font-size: 25px; color: #2a1712;" />
+                            </div>
+                            <div class="responsive_block_top" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right; width: 90%;">
+                              Лучшие подарки для коллекционеров: наборы для отдыха на природе в простом и подарочном исполнении, подарочные шкатулки для ножей и уникальные остекленные рамки с различными тропическими насекомыми, выполненные в соответствии с коллекционными требованиями.  
+                            </div>
                           </td>
                           <td width="10%" class="hidden">&nbsp;</td>
                         </tr>
@@ -270,7 +302,17 @@
                 <!-- 3 -->
                 <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%" style="margin:0 auto;">
                   <tr>
-                    <td height="100px">&nbsp;</td>
+                    <td>
+                      <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td width="12%" class="hidden">&nbsp;</td>
+                          <td>
+                            <hr />
+                          </td>
+                          <td width="12%" class="hidden">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -278,12 +320,12 @@
                         <tr>
                           <td width="10%" class="hidden">&nbsp;</td>
                           <td>
-                            <img src="est.jpg" alt="est" style="font-size: 25px; color: #2a1712;" />
-                            <td style="text-align: right;">
-                              <p style="font-size: 25px; color: #5d5e5e; line-height: 30px;">
-                                Швейцарской мастерской TF Est. 1968 удалось совместить два истинно мужских аксессуара – часы и запонки – воедино, вследствие чего родились ювелирные изделия для мужчин, обладающих стилем и вкусом.
-                              </p>
-                            </td>
+                            <div class="responsive_block_top" style="width: 30%; text-align: left;">
+                              <img src="est.jpg" alt="est" style="font-size: 25px; color: #2a1712;" />
+                            </div>
+                            <div class="responsive_block_top" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right; width: 70%;">
+                              Швейцарской мастерской TF Est. 1968 удалось совместить два истинно мужских аксессуара – часы и запонки – воедино, вследствие чего родились ювелирные изделия для мужчин, обладающих стилем и вкусом.  
+                            </div>
                           </td>
                           <td width="10%" class="hidden">&nbsp;</td>
                         </tr>
@@ -339,7 +381,17 @@
                 <!-- 4 -->
                 <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%" style="margin:0 auto;">
                   <tr>
-                    <td height="100px">&nbsp;</td>
+                    <td>
+                      <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td width="12%" class="hidden">&nbsp;</td>
+                          <td>
+                            <hr />
+                          </td>
+                          <td width="12%" class="hidden">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -347,12 +399,12 @@
                         <tr>
                           <td width="10%" class="hidden">&nbsp;</td>
                           <td>
-                            <img src="kadun.jpg" alt="kadun" style="font-size: 25px; color: #2a1712;"/>
-                            <td style="text-align: right;">
-                              <p style="font-size: 25px; color: #5d5e5e; line-height: 30px;">
-                                Находка для тех, кто хочет видеть смысл в каждой детали, в каждом элементе, в каждом уголке своего дома. 
-                              </p>
-                            </td>
+                            <div class="responsive_block_top" style="width: 30%; text-align: left;">
+                              <img src="kadun.jpg" alt="kadun" style="font-size: 25px; color: #2a1712;"/>
+                            </div>
+                            <div class="responsive_block_top" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right; width: 70%;">
+                              Находка для тех, кто хочет видеть смысл в каждой детали, в каждом элементе, в каждом уголке своего дома.  
+                            </div>
                           </td>
                           <td width="10%" class="hidden">&nbsp;</td>
                         </tr>
@@ -408,31 +460,48 @@
                 <!-- footer -->
                 <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%" style="margin:0 auto;">
                   <tr>
+                    <td colspan="3">
+                      <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td width="12%" class="hidden">&nbsp;</td>
+                          <td>
+                            <hr />
+                          </td>
+                          <td width="12%" class="hidden">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
                     <td width="10%" class="hidden">&nbsp;</td>
                     <td>
-                      <p style="font-size: 23px; line-height: 26px;">
+                      <p style="font-size: 23px; line-height: 26px; color: #5d5e5e;">
                         Вы получили это письмо, так как являетесь посетителем сайта <a href="https://fama.ua/" target="_blank">fama.ua</a>. Если вы не хотите получать рассылки в дальнейшем, нажмите на эту <a href="javascript: void(0);" target="_blank">ссылку</a>, чтобы отписаться.
+                        <br /><br />
                       </p>
-                      <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%" style="margin:0 auto;">
+                      <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                           <td style="text-align: right;">
-                            Будьте всегда в курсе о самых лучших подарках!
-                            <br />
-                            Подписывайтесь, оставляйте комментарии:
-                            <br />
+                            <p style="color:#5d5e5e;" class="text_center">
+                              Будьте всегда в курсе о самых лучших подарках!
+                              <br />
+                              Подписывайтесь, оставляйте комментарии:
+                              <br />
+                              <br />
+                            </p>
                             <p style="text-transform: uppercase; font-weight: 300;">
                               
-                              <a href="https://www.facebook.com/FamaPresents" target="_blank" style="background-color: #2a1712; color:#fff; text-decoration: none; display: inline;">
+                              <a class="responsive_footer_link" href="https://www.facebook.com/FamaPresents" target="_blank" style="background-color: #2a1712; color:#fff; text-decoration: none; display: inline;">
                                 &nbsp;
                                 <img src="fb.jpg" alt="fb" style="font-size: 15px; color: #2a1712;" />
                                 facebook
                               </a>
-                              <a href="javascript: void(0);" target="_blank" style="background-color: #2a1712; color:#fff; text-decoration: none; display: inline;">
+                              <a class="responsive_footer_link" href="javascript: void(0);" target="_blank" style="background-color: #2a1712; color:#fff; text-decoration: none; display: inline;">
                                 &nbsp;
                                 <img src="tw.jpg" alt="tw" style="font-size: 15px; color: #2a1712;" />
                                 twitter
                               </a>
-                              <a href="https://vk.com/famapresents" target="_blank" style="background-color: #2a1712; color:#fff; text-decoration: none; display: inline;">
+                              <a class="responsive_footer_link" href="https://vk.com/famapresents" target="_blank" style="background-color: #2a1712; color:#fff; text-decoration: none; display: inline;">
                                 &nbsp;                              
                                 <img src="vk.jpg" alt="vk" style="font-size: 15px; color: #2a1712;" />
                                 vk.com
@@ -441,7 +510,7 @@
 
                             </p>
                             <br />
-                            <p>
+                            <p style="font-size: 29px; color: #5d5e5e;" class="text_center">
                               +38 (044) 332 24 09
                               <br />
                               +38 (050) 100 05 49
