@@ -65,6 +65,12 @@
     .responsive_block_top{
       float: left;
     }
+
+    /* mailru... */
+    .highlight-phone{
+      color: #5e5e5e !important;
+      border: none !important;
+    }
   </style>
 
   <style type="text/css" media="screen">
@@ -92,16 +98,21 @@
     table[class="mobile_full_width"]{
       width: 100% !important;
     }
+    td[class="td-responsible"]{
+      width: 100% !important;
+      float: left !important;
+      text-align: center !important;
+    }
     .responsive_block_top{
       width: 100% !important;
       float: none !important;
       text-align: center !important;
     }
     .responsive_footer_link{
-      width: 100% !important; 
+      width: 50% !important; 
       display: block !important;
       text-align: center !important;
-      margin-bottom: 5px !important;
+      margin: 0 auto 10px !important;
     }
     .text_center{
       text-align: center !important;
@@ -111,18 +122,18 @@
 
 <body class="body" style="padding:0; margin:0; display:block; background:#ffffff; -webkit-text-size-adjust:none" bgcolor="#ffffff">
 
-<table align="center" cellpadding="0" cellspacing="0" width="100%" height="100%" >
+<table align="left" cellpadding="0" cellspacing="0" width="100%" height="100%" >
   <tr>
-    <td align="center" valign="top" bgcolor="#ffffff"  width="100%">
+    <td align="left" valign="top" bgcolor="#ffffff"  width="100%">
       <center>
         <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%" class="w320">
           <tr>
-            <td align="center" valign="top">
+            <td align="left" valign="top">
 
                 <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%" style="margin:0 auto;">
                   <tr>
                     <td colspan="3">
-                      <img src="top.jpg" alt="" class="img-responsible" alt="fama" style="font-size: 25px; color: #2a1712;" />
+                      <img src="top.jpg" alt="" class="img-responsible" alt="fama" style="font-size: 25px; color: #2a1712; display: block; width: 100%; max-width: 100%; height: auto;" />
                     </td>
                   </tr>
                   <tr>
@@ -134,14 +145,18 @@
                       <p style="color: #2a1712; font-size: 25px; line-height: 33px; text-align: left;">
                         Интернет-магазин эксклюзивных подарков предлагает множество разнообразных вещиц: это коллекционные монеты, брендовые галстуки, зонты, трости, украшения, принадлежности для вина, охотничьи наборы… И список этот мы можем продолжать очень долго.
                       </p>
-                      <br />
                     </td>
                     <td width="10%" class="hidden">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="30px" colspan="3">
+                      &nbsp;
+                    </td>
                   </tr>
                   <tr bgcolor="#abcec9">
                     <td width="10%" class="hidden">&nbsp;</td>
                     <td>
-                      <p style="color: #2a1712; font-size: 29px; padding: 10px 0 20px;">
+                      <p style="color: #2a1712; font-size: 29px; line-height: 33px; padding: 10px 0 20px;">
                         МЫ ПРИНИМАЕМ И ОБРАБАТЫВАЕМ ВАШИ ЗАКАЗЫ КРУГЛОСУТОЧНО.
                         ДОСТАВКА И КОНСУЛЬТАЦИИ – ЕЖЕДНЕВНО С 9:00 ДО 23:00
                       </p>
@@ -161,12 +176,16 @@
                         <tr>
                           <td width="10%" class="hidden">&nbsp;</td>
                           <td>
-                            <div class="responsive_block_top" style="width: 30%; text-align: left;">
-                              <img src="pasotti.jpg" alt="pasotti" style="font-size: 25px; color: #2a1712;" />
-                            </div>
-                            <div class="responsive_block_top" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right; width: 70%;">
-                              Поп дива Хилари Дафф, Дженнифер Лопес, актриса Мерил Стрип не выходят в дождливую погоду без Pasotti... Специальная цена на женские и мужские модели к осеннему сезону от FAMA.  
-                            </div>
+                            <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td class="td-responsible">
+                                  <img src="pasotti.jpg" alt="pasotti" style="font-size: 25px; color: #2a1712;" />    
+                                </td>
+                                <td class="td-responsible" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right;">
+                                  Поп дива Хилари Дафф, Дженнифер Лопес, актриса Мерил Стрип не выходят в дождливую погоду без Pasotti... Специальная цена на женские и мужские модели к осеннему сезону от FAMA. 
+                                </td>
+                              </tr>
+                            </table>
                           </td>
                           <td width="10%" class="hidden">&nbsp;</td>
                         </tr>
@@ -190,8 +209,8 @@
                               <td>
                                 <table align="right" style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="50%" class="mobile_full_width">
                                   <tr>
-                                    <td align="right" width="50%" class="td-responsible">
-                                      <div style="background: #ffffff; background: rgba(255,255,255, .82); background: url('bg.png') repeat 0 0; padding: 20px; text-transform: uppercase; line-height: 37px;">
+                                    <td align="right" width="50%" class="td-responsible" background="bg.png" style="background-repeat: repeat;">
+                                      <div style="padding: 20px; text-transform: uppercase; line-height: 37px;">
                                         <center>
                                           Мастерская Pasotti является одной
                                           из четырех во всей Европе, производящих зонты вручную. Зонты Pasotti изготовлены из натуральной древесины, дорогой ткани, их ручки из серебра, украшенные ручной резьбой и перламутром, именно этот фактор делает нашу продукцию невероятно привлекательной и роскошной.
@@ -241,12 +260,16 @@
                         <tr>
                           <td width="10%" class="hidden">&nbsp;</td>
                           <td>
-                            <div class="responsive_block_top" style="width: 10%; text-align: left;">
-                              <img src="ladia.jpg" alt="ladia" style="font-size: 25px; color: #2a1712;" />
-                            </div>
-                            <div class="responsive_block_top" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right; width: 90%;">
-                              Лучшие подарки для коллекционеров: наборы для отдыха на природе в простом и подарочном исполнении, подарочные шкатулки для ножей и уникальные остекленные рамки с различными тропическими насекомыми, выполненные в соответствии с коллекционными требованиями.  
-                            </div>
+                            <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td class="td-responsible">
+                                  <img src="ladia.jpg" alt="ladia" style="font-size: 25px; color: #2a1712;" />
+                                </td>
+                                <td class="td-responsible" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right;">
+                                  Лучшие подарки для коллекционеров: наборы для отдыха на природе в простом и подарочном исполнении, подарочные шкатулки для ножей и уникальные остекленные рамки с различными тропическими насекомыми, выполненные в соответствии с коллекционными требованиями. 
+                                </td>
+                              </tr>
+                            </table>
                           </td>
                           <td width="10%" class="hidden">&nbsp;</td>
                         </tr>
@@ -270,8 +293,8 @@
                               <td>
                                 <table align="right" style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="50%" class="mobile_full_width">
                                   <tr>
-                                    <td align="right" width="50%" class="td-responsible">
-                                      <div style="background: #ffffff; background: rgba(255,255,255, .82); background: url('bg.png') repeat 0 0; padding: 20px; text-transform: uppercase; line-height: 37px;">
+                                    <td align="right" width="50%" class="td-responsible" background="bg.png" style="background-repeat: repeat;">
+                                      <div style="padding: 20px; text-transform: uppercase; line-height: 37px;">
                                         <center>
                                           Принцип эстетики соблюдается верной своему делу гильдией мастеров резьбы. Латунные вставки с текстолитом, художественное латунное литье, драгоценные металлы и камни, всё это дополняет продукцию "Ладьи" и дарит каждому её элементу свой особенный шарм.
                                           <br />
@@ -320,12 +343,16 @@
                         <tr>
                           <td width="10%" class="hidden">&nbsp;</td>
                           <td>
-                            <div class="responsive_block_top" style="width: 30%; text-align: left;">
-                              <img src="est.jpg" alt="est" style="font-size: 25px; color: #2a1712;" />
-                            </div>
-                            <div class="responsive_block_top" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right; width: 70%;">
-                              Швейцарской мастерской TF Est. 1968 удалось совместить два истинно мужских аксессуара – часы и запонки – воедино, вследствие чего родились ювелирные изделия для мужчин, обладающих стилем и вкусом.  
-                            </div>
+                            <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td class="td-responsible">
+                                  <img src="est.jpg" alt="est" style="font-size: 25px; color: #2a1712;" />    
+                                </td>
+                                <td class="td-responsible" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right;">
+                                  Швейцарской мастерской TF Est. 1968 удалось совместить два истинно мужских аксессуара – часы и запонки – воедино, вследствие чего родились ювелирные изделия для мужчин, обладающих стилем и вкусом.
+                                </td>
+                              </tr>
+                            </table>
                           </td>
                           <td width="10%" class="hidden">&nbsp;</td>
                         </tr>
@@ -349,8 +376,8 @@
                               <td>
                                 <table align="right" style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="50%" class="mobile_full_width">
                                   <tr>
-                                    <td align="right" width="50%" class="td-responsible">
-                                      <div style="background: #ffffff; background: rgba(255,255,255, .82); background: url('bg.png') repeat 0 0; padding: 20px; text-transform: uppercase; line-height: 37px;">
+                                    <td align="right" width="50%" class="td-responsible" background="bg.png" style="background-repeat: repeat;">
+                                      <div style="padding: 20px; text-transform: uppercase; line-height: 37px;">
                                         <center>
                                           TF Est. 1968 – это эксклюзивная марка. Совершенно невозможно сравнить ее с другими марками, поскольку запонки с турбийоном – уникальны в своем роде и больше ни одна компания не выпускает таких. Именно благодаря своим оригинальным запонкам бренду удалось завоевать себе всемирную известность.
                                           <br />
@@ -399,12 +426,16 @@
                         <tr>
                           <td width="10%" class="hidden">&nbsp;</td>
                           <td>
-                            <div class="responsive_block_top" style="width: 30%; text-align: left;">
-                              <img src="kadun.jpg" alt="kadun" style="font-size: 25px; color: #2a1712;"/>
-                            </div>
-                            <div class="responsive_block_top" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right; width: 70%;">
-                              Находка для тех, кто хочет видеть смысл в каждой детали, в каждом элементе, в каждом уголке своего дома.  
-                            </div>
+                            <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td class="td-responsible">
+                                  <img src="kadun.jpg" alt="kadun" style="font-size: 25px; color: #2a1712;"/>
+                                </td>
+                                <td class="td-responsible" style="font-size: 25px; color: #5d5e5e; line-height: 30px; text-align: right;">
+                                  Находка для тех, кто хочет видеть смысл в каждой детали, в каждом элементе, в каждом уголке своего дома.  
+                                </td>
+                              </tr>
+                            </table>
                           </td>
                           <td width="10%" class="hidden">&nbsp;</td>
                         </tr>
@@ -428,8 +459,8 @@
                               <td>
                                 <table align="right" style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="50%" class="mobile_full_width">
                                   <tr>
-                                    <td align="right" width="50%" class="td-responsible">
-                                      <div style="background: #ffffff; background: rgba(255,255,255, .82); background: url('bg.png') repeat 0 0; padding: 20px; text-transform: uppercase; line-height: 37px;">
+                                    <td align="right" width="50%" class="td-responsible" background="bg.png" style="background-repeat: repeat;">
+                                      <div style="padding: 20px; text-transform: uppercase; line-height: 37px;">
                                         <center>
                                           Нарды и шахматы из ценных пород дерева от Kadun – настоящие ювелирные изделия, находка для амбициозных людей, которые предпочитают видеть в каждой детали роскошь жизни. Особое место в коллекции бренда занимают изделия из бивней мамонта. 
                                           <br />
@@ -482,7 +513,7 @@
                       <table style="margin: 0 auto;" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                           <td style="text-align: right;">
-                            <p style="color:#5d5e5e;" class="text_center">
+                            <p style="color:#5d5e5e; font-size: 26px;" class="text_center">
                               Будьте всегда в курсе о самых лучших подарках!
                               <br />
                               Подписывайтесь, оставляйте комментарии:
@@ -491,33 +522,39 @@
                             </p>
                             <p style="text-transform: uppercase; font-weight: 300;">
                               
-                              <a class="responsive_footer_link" href="https://www.facebook.com/FamaPresents" target="_blank" style="background-color: #2a1712; color:#fff; text-decoration: none; display: inline;">
+                              <!-- must be write like this because of inline-block empty space :/ -->
+                              <a class="responsive_footer_link" href="https://www.facebook.com/FamaPresents" target="_blank" style="display: inline-block; height:32px; line-height: 32px; background-color: #2a1712; color:#fff; text-decoration: none; padding: 0 5px;">
                                 &nbsp;
-                                <img src="fb.jpg" alt="fb" style="font-size: 15px; color: #2a1712;" />
+                                <img align="center" src="fb.jpg" alt="fb" style="font-size: 15px; color: #2a1712;" />
                                 facebook
-                              </a>
-                              <a class="responsive_footer_link" href="javascript: void(0);" target="_blank" style="background-color: #2a1712; color:#fff; text-decoration: none; display: inline;">
+                              </a><a class="responsive_footer_link" href="javascript: void(0);" target="_blank" style="display: inline-block; height:32px; line-height: 32px; background-color: #2a1712; color:#fff; text-decoration: none; padding: 0 5px;">
                                 &nbsp;
-                                <img src="tw.jpg" alt="tw" style="font-size: 15px; color: #2a1712;" />
+                                <img align="center" src="tw.jpg" alt="tw" style="font-size: 15px; color: #2a1712;" />
                                 twitter
-                              </a>
-                              <a class="responsive_footer_link" href="https://vk.com/famapresents" target="_blank" style="background-color: #2a1712; color:#fff; text-decoration: none; display: inline;">
+                              </a><a class="responsive_footer_link" href="https://vk.com/famapresents" target="_blank" style="display: inline-block; height:32px; line-height: 32px; background-color: #2a1712; color:#fff; text-decoration: none; padding: 0 5px;">
                                 &nbsp;                              
-                                <img src="vk.jpg" alt="vk" style="font-size: 15px; color: #2a1712;" />
+                                <img align="center" src="vk.jpg" alt="vk" style="font-size: 15px; color: #2a1712;" />
                                 vk.com
                                 &nbsp;
                               </a>
-
                             </p>
                             <br />
-                            <p style="font-size: 29px; color: #5d5e5e;" class="text_center">
-                              +38 (044) 332 24 09
+                            <p class="text_center">
+                              <span style="font-size: 29px; color: #5d5e5e !important; text-decoration: none; border: none;" >
+                                &zwnj;+38 (044) 332 24 09
+                              </span>
                               <br />
-                              +38 (050) 100 05 49
+                              <span style="font-size: 29px; color: #5d5e5e !important; text-decoration: none; border: none;" >
+                                &zwnj;+38 (050) 100 05 49
+                              </span>
                               <br />
-                              +38 (067) 100 01 49
+                              <span style="font-size: 29px; color: #5d5e5e !important; text-decoration: none; border: none;" >
+                                &zwnj;+38 (067) 100 01 49
+                              </span>
                               <br />
-                              www.fama.ua
+                              <span style="font-size: 29px; color: #5d5e5e !important; text-decoration: none; border: none;" >
+                                &zwnj;www.fama.ua
+                              </span>
                             </p>
                             <br />
                             <br />
